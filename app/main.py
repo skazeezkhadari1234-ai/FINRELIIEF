@@ -26,7 +26,7 @@ origins = [
     "http://localhost:5174",
     "http://127.0.0.1:5173",
     "http://127.0.0.1:5174",
-    "https://finrelief-1.onrender.com"  # Replace with your actual frontend URL after deployment
+    "https://finreliief-1.onrender.com"  # Replace with your actual frontend URL after deployment
 ]
 
 app.add_middleware(
