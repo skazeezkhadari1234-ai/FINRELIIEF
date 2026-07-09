@@ -25,7 +25,8 @@ origins = [
     "http://localhost:5173",
     "http://localhost:5174",
     "http://127.0.0.1:5173",
-    "http://127.0.0.1:5174"
+    "http://127.0.0.1:5174",
+    "https://finrelief-1.onrender.com"   # Replace with your actual frontend URL after deployment
 ]
 
 app.add_middleware(
@@ -35,7 +36,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # Register routers
 app.include_router(auth_router, tags=["Authentication"])
 app.include_router(loan_router, tags=["Loans"])
