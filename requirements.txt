@@ -10,3 +10,4 @@ google-generativeai
 pydantic
 werkzeug
 email-validator
+psycopg2-binary
