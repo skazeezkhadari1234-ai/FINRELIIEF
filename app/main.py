@@ -26,9 +26,9 @@ origins = [
     "http://localhost:5174",
     "http://127.0.0.1:5173",
     "http://127.0.0.1:5174",
-    "https://finreliief-1.onrender.com"  # Replace with your actual frontend URL after deployment
+    "https://finreliief-1.onrender.com",
+    "https://finrelief2.onrender.com"
 ]
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
