@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
 
-   baseURL: "https://finreliief2.onrender.com",
+   baseURL: "https://finreliief1.onrender.com",
 
 });
 
