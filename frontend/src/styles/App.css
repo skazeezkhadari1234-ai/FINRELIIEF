@@ -1,0 +1,71 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700&display=swap");
+
+:root{
+
+    --bg:#0d1117;
+    --surface:#161b22;
+    --card:#1f2937;
+    --primary:#3b82f6;
+    --success:#22c55e;
+    --warning:#f59e0b;
+    --danger:#ef4444;
+    --text:#ffffff;
+    --text2:#b8c0cc;
+    --border:#2d3748;
+
+    --radius:14px;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:"DM Sans",sans-serif;
+
+}
+
+h1,h2,h3{
+
+    font-family:"Syne",sans-serif;
+
+}
+
+button{
+
+    cursor:pointer;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:white;
+
+}
+
+.loading{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    font-size:28px;
+
+}

@@ -1,0 +1,141 @@
+.login-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    background:#0d1117;
+
+}
+
+.login-card{
+
+    width:430px;
+
+    background:#161b22;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 0 20px rgba(0,0,0,.4);
+
+}
+
+.title{
+
+    text-align:center;
+
+    color:#3b82f6;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#9ca3af;
+
+    margin-bottom:30px;
+
+}
+
+.login-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.login-form input{
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#202938;
+
+    color:white;
+
+}
+
+.login-form button{
+
+    padding:14px;
+
+    background:#3b82f6;
+
+    border:none;
+
+    border-radius:10px;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.tab-container{
+
+    display:flex;
+
+    margin-bottom:20px;
+
+}
+
+.tab-container button{
+
+    flex:1;
+
+    padding:12px;
+
+    background:#202938;
+
+    border:none;
+
+    color:white;
+
+}
+
+.tab-container .active{
+
+    background:#3b82f6;
+
+}
+
+.message{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    color:#22c55e;
+
+}
+
+.footer{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.footer span{
+
+    color:#3b82f6;
+
+    cursor:pointer;
+
+}

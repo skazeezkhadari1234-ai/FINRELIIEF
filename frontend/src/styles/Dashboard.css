@@ -1,0 +1,192 @@
+.dashboard{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+.sidebar{
+
+    width:250px;
+
+    background:#161b22;
+
+    padding:25px;
+
+}
+
+.sidebar h2{
+
+    color:#3b82f6;
+
+    margin-bottom:30px;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+.sidebar li{
+
+    padding:14px;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+    margin-bottom:10px;
+
+}
+
+.sidebar li:hover{
+
+    background:#202938;
+
+}
+
+.content{
+
+    flex:1;
+
+    padding:40px;
+
+}
+
+.dashboard-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.primary-btn{
+
+    padding:12px 22px;
+
+    border:none;
+
+    background:#3b82f6;
+
+    color:white;
+
+    border-radius:10px;
+
+}
+
+.card-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.card{
+
+    background:#1f2937;
+
+    padding:25px;
+
+    border-radius:14px;
+
+}
+
+.loan-table{
+
+    width:100%;
+
+    margin-top:30px;
+
+    border-collapse:collapse;
+
+}
+
+.loan-table th,
+.loan-table td{
+
+    border:1px solid #2d3748;
+
+    padding:14px;
+
+}
+
+.modal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.6);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.modal{
+
+    width:500px;
+
+    background:#161b22;
+
+    padding:30px;
+
+    border-radius:15px;
+
+}
+
+.modal input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#202938;
+
+    color:white;
+
+}
+
+.button-group{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.danger-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+}

@@ -1,0 +1,38 @@
+.rights-page{
+    display:flex;
+    min-height:100vh;
+}
+
+.rights-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.rights-card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:14px;
+}
+
+.rights-card h2{
+    color:#3b82f6;
+    margin-bottom:15px;
+}
+
+.rights-card p,
+.rights-card li{
+    color:#d1d5db;
+    line-height:1.7;
+}
+
+.help-section{
+    margin-top:40px;
+}
+
+.help-card{
+    background:#161b22;
+    padding:25px;
+    border-radius:14px;
+}
