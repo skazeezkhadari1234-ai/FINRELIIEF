@@ -8,3 +8,4 @@ python-multipart
 google-generativeai
 pydantic
 werkzeug
+email-validator
